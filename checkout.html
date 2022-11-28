@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="icon" type="image/x-icon" href="./components/download1.png">
+    <link rel="stylesheet" href="./All  CSS/checkout.css">
+    <link rel="stylesheet" href="./All  CSS/brandNavbar.css">
+    <link rel="stylesheet" href="./All  CSS/footer.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar"></div>
+    <div>
+        <div id="Shippingadress">
+            <h3>SHIPPING ADDRESS</h3>
+            <div>There are no saved addresses.</div>
+            <button id="newAddress">ADD NEW SHIPPING ADDRESS</button>
+        </div>
+        <div id="oneAdress">
+            <div>
+                <h1>Add a new Address</h1>
+            </div>
+            <input type="text" name="" id="pincode" class="hunderper" placeholder="pincode*"><br>
+            <input type="text" name="" id="fname" placeholder="Enter First Name*">
+            <input type="text" name="" id="Lname" placeholder="Enter Last Name*"><br>
+            <input type="text" name="" id="FN" class="hunderper" placeholder="Enter Flat No/House"><br>
+            <input type="text" name="" id="CN" class="hunderper" placeholder="Enter colony/street"><br>
+            <input type="text" name="" id="Landmark" class="hunderper" placeholder="Enter Landmark"><br>
+            <input type="text" name="" id="City" placeholder="Enter City">
+            <input type="text" name="" id="state" placeholder="Enter State"> <br>
+            <input type="text" name="" id="no" placeholder="Enter Mobile No">
+            <input type="text" name="" id="lno" placeholder="Enter Landline No"><br>
+            <div id="sub">
+                <button id="cancel" onclick="cancel()">Cancel</button>
+                <button id="adressSubmit">Submit</button>
+            </div>
+
+        </div>
+        <div id="oneAdress2">
+            <div id="ordersub">
+                <div class="same">
+                    <h2>Order Sub Total:</h2>
+                    <h3 id="subto2">0000</h3>
+                </div>
+                <div id="Coupon">
+                    <input type="text" name="" id="Couponin" placeholder="Coupon Code" />
+                    <button id="CouponAplly">APPLY</button>
+
+                </div>
+                <div class="same">
+                    <h2>Order Total:</h2>
+                    <h3 id="subto1">0000</h3>
+                </div>
+                <p>*In order to authenticate and redeem Store Credit or ROne Loyalty Points an OTP validation shall be
+                    required. Post successful OTP verification, further payment if any shall be facilitated.</p>
+                <button id="lastbtn">PROCEED TO PAYMENT</button>
+            </div>
+        </div>
+        <div id="last">
+            <img src="./components/CaptureCW.PNG" alt="">
+            <button id="pta">RS</button>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+
+</html>
+<script src="./ALL JS/chechout.js" type="module"></script>

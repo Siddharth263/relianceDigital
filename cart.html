@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CART</title>
+    <link rel="icon" type="image/x-icon" href="./components/download1.png">
+    <link rel="stylesheet" href="./All  CSS/cart.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./All  CSS/brandNavbar.css">
+    <link rel="stylesheet" href="./All  CSS/footer.css">
+  </head>
+
+  <body>
+
+    <div class="navbar" id="navbar"></div>
+    <!-- cart middel -->
+    <div id="cartmiddel">
+
+
+      <!--! cartProduct -->
+      <div id="cartProduct">
+        <div id="CP1">
+          <h3 id="totalitems">My Cart(0 items)</h3>
+          <p>Shipping to:  143001</p>
+        </div>
+      </div>
+
+      <!-- cartChekout -->
+      <div id="cartChekout">
+        <button id="cartchekoutbtn">CHECKOUT</button>
+
+        <div id="cartcheckout1">
+          <div id="Coupon">
+            <input type="text" name="" id="Couponin" placeholder="Coupon Code"/>
+            <button id="CouponAplly">APPLY</button>            
+          </div>
+
+          <h3>PRICE DETAILS</h3>
+          <!-- PRICE -->
+          <div id="cartPrice">
+            <p>Price</p>
+            <h3 id="TotalPriceCArt">0000</h3>
+          </div>
+          <div id="cartdelcha" style="display: flex ;" >
+            <p>Delivery Charges</p>
+            <h3>FREE</h3>
+          </div>
+          <div id="cartdelchad" style=" margin-top:-10px; margin-bottom:-20px;display:none;" >
+            <p>Discount</p>
+            <h3>30%</h3>
+          </div>
+           
+          <hr />
+
+          <div id="AMOUNT_PAYABLE">
+            <h3>AMOUNT PAYABLE</h3>
+            <h3 id="TotalcartAmount">0000</h3>
+          </div>
+        </div>
+        <h5 style="color:gray ; font-family: sans-serif;">
+          Safe and Secure Payments. Easy returns. 100% Authentic products.
+        </h5>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./All JS/cart.js" type="module"></script>

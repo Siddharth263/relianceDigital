@@ -1,0 +1,84 @@
+body{
+background-color: #f1f3f7;
+overflow-x: hidden;
+}
+
+form{
+    width: 33%;
+    height: auto;
+    border: 1px solid #003380;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 111px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+form>#heading{
+    height: 33px;
+    background-color: #ccc;
+    padding-top: 11px;
+    padding-left: 7px;
+    
+}
+form>hr{
+    width: 100%;
+    color: grey;
+    margin-bottom: 5px;
+}
+#verify_box{
+    /* border: 1px solid red; */
+    color: red;
+    width: 88%;
+    margin: auto;
+    height: 33px;
+    /* margin-left: 5%; */
+    margin-top: 25px;
+}
+ #verify_btn{
+    border: 1px solid red;
+    color: red;
+    width: 22%;
+    height: 33px;
+    font-weight: 700;
+    /* margin-left: 7%; */
+}
+form input{
+    height: 33px;
+    margin: auto;
+    margin-top: 25px;
+}
+form input{
+    border: 1px solid gray;
+    width: 88%;
+    padding-left: 7px;
+}
+
+form span{
+    /* color: red; */
+    margin: auto;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 22px;
+}
+form span>a{
+    color: red;
+    font-size:14px;
+    
+}
+form p{
+    text-align: start;
+    margin-left: 5%;
+    font-size: 12px;
+    margin-top: 7px;
+    width: 88%;
+}
+#proceed_btn{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width: 88%;
+    height: 33px;
+    font-weight: 700;
+    margin-left: 7%;
+}

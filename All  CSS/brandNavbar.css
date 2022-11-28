@@ -1,0 +1,148 @@
+ /* body{
+  overflow: hidden;
+} */
+
+ * {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* color: #fff; */
+ }
+
+ /* uppen navbar section consisting of brands promise and other tabs,
+need to be added into every file after importing the upper navbar js */
+
+ #upper-navbar {
+   display: flex;
+   justify-content: space-evenly;
+   border: 1px solid transparent;
+   margin: 0px;
+ }
+
+ #upper-navbar h5 {
+   text-align: center;
+   margin-top: 2px;
+   text-transform: uppercase;
+ }
+
+ #upper-navbar table {
+   width: 100%;
+   border-bottom: 1px solid rgb(181, 181, 181);
+ }
+
+ #upper-navbar table tr {
+   height: 20px;
+ }
+
+ #upper-navbar table td:first-child,
+ td:last-child {
+   border-right: transparent;
+ }
+
+ #upper-navbar table td {
+   border-left: transparent;
+   border-right: 1px solid rgb(181, 181, 181);
+   border-bottom: transparent;
+   height: 30px;
+ }
+
+ #upper-navbar tr td a {
+   text-decoration: none;
+   color: #000;
+ }
+
+ #products-bar a {
+   text-decoration: none;
+   color: #fff;
+ }
+
+ /* upper navbar completed here */
+
+ #search-bar {
+   display: grid;
+   grid-template-columns: 1fr 1.5fr 1fr;
+   margin-top: 5px;
+ }
+
+ #search-bar div img {
+   /* border: 1px solid; */
+   margin-left: 70px;
+   width: 32%;
+ }
+
+ .input {
+   margin-top: 5px;
+   width: 80%;
+   box-sizing: border-box;
+   padding: 10px;
+   border: none;
+   border-radius: 100px;
+   color: #000;
+ }
+
+ #L,
+ #C {
+   text-decoration: none;
+   color: #003380;
+   font-weight: bold;
+   margin-right: 10px;
+ }
+
+ .navbar {
+   background-color: #e4252a;
+   margin: -10px;
+   color: #fff;
+ }
+
+ .cart {
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+ }
+
+ #products-bar {
+   background-color: #003380;
+   display: flex;
+   /* justify-content: space-evenly; */
+   cursor: pointer;
+ }
+
+ #products-bar>li {
+   cursor: pointer;
+   list-style: none;
+   margin-left: 10px;
+   font-size: 12px;
+ }
+
+ #products-bar>li:hover>div:first-child {
+   background-color: #e4252a;
+   /* width: 100px; */
+ }
+
+ #products-bar>li>div:first-child {
+   /* border: 1px solid; */
+   font-weight: bold;
+   text-align: center;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+ #products-bar>li:hover .list-divs-flex {
+   /* display: block; */
+   display: flex;
+ }
+
+ #products-bar>li ul {
+   list-style-type: none;
+ }
+
+ .list-divs-flex {
+   display: none;
+   /* border: 1px solid; */
+   margin-top: 20px;
+ }
+
+ /* All icons classes: */
+ .fa-search {
+   margin-left: -30px;
+ }
+
+ /* All icons classes end here */

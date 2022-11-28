@@ -1,0 +1,170 @@
+#cartmiddel {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+#cartProduct {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 100vh;
+  /* padding: 0px 100px; */
+}
+
+/* CHEKCKOUT */
+#cartChekout {
+  /* border: 1px solid red; */
+  width: 35%;
+  height: 100vh;
+  padding: 0px 30px;
+}
+#cartchekoutbtn {
+  width: 445px;
+  height: 34px;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: #b01619;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#cartcheckout1 {
+  border: 1px solid gray;
+  margin-top: 18px;
+  width: 400px;
+  height: 240px;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+#Coupon {
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  width: 390px;
+  height: 36px;
+  background-color: blue;
+  padding-bottom: 3px;
+  border-radius: 5px;
+}
+#CouponAplly {
+  width: 28%;
+  height: 40px;
+  margin-right: -10px;
+  padding-top: 5px;
+  padding: 0px 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+#Couponin {
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 100%;
+  padding: 0px 2px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#cartPrice {
+  margin-top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+#cartdelcha {
+  display: flex;
+  margin-top: -25px;
+  justify-content: space-between;
+}
+#AMOUNT_PAYABLE {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+/* ! cartproducts */
+
+#CP1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 65px;
+}
+
+/* !Append */
+#CPmaindiv {
+  border: 1px solid gray;
+  width: 800px;
+  height: 300px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 4px;
+   
+}
+#CPupperdiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+}
+
+#CPupperdiv > div:last-child {
+  text-align: end;
+}
+#lowerdiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 15%;
+}
+#lowerdiv > button:first-child {
+  width: 50%;
+  height: 100%;
+  color: blue;
+}
+#lowerdiv > button:last-child {
+  width: 50%;
+  height: 100%;
+  color: blue;
+}
+#threebtnouter {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+#threebtnouter>input {
+  margin-top: 6px;
+  margin-left: 20px;
+  width:  25px;
+  height: 20px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+#threebtnouter > button {
+  height: 25px;
+  margin-top: 6px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#oneimg {
+  width: 70%;
+  height: 75%;
+  padding: 10px;
+}
+#changecen{
+  text-align: center;
+}
+.discriptiondiv{
+  padding-right: 10px;
+}
+
+#cartdelchad{
+  display: flex;
+  justify-content: space-between;
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
